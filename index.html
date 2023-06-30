@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teams Innovation - Smart Solutions for You</title>
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+</head>
+<body>
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header style="background-color: #202020;">
+    <div class="container">
+      <a href="#" class="logo" style="color: white;">Teams Innovation</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">Teams Innovation</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <ul class="navbar-list ">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link style="color: white;">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link style="color: white;">About</a>
+          </li>
+
+          <li>
+            <head>
+              <style>
+                .dropdown-content {
+                  display: none;
+                  position: absolute;
+                  background-color: #f9f9f9;
+                  min-width: 160px;
+                  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                  z-index: 1;
+                }
+            
+                .dropdown:hover .dropdown-content {
+                  display: block;
+                }
+            
+                .dropdown-content a {
+                  color: black;
+                  padding: 12px 16px;
+                  text-decoration: none;
+                  display: block;
+                }
+            
+                .dropdown-content a:hover {
+                  background-color: #f1f1f1;
+                }
+              </style>
+            </head>
+            <body>
+              <div class="dropdown">
+                <a href="#services" class="navbar-link" data-nav-link style="color: white;">Services</a>
+                <div class="dropdown-content">
+                  <a href="#">Internet Marketing</a>
+                  <a href="#">Email Marketing</a>
+                  <a href="#">Web Design</a>
+                  <a href="#">Web Analytics</a>
+                </div>
+              </div>
+            </body>
+          </li>
+          <li>
+            <a href="#features" class="navbar-link" data-nav-link style="color: white;">Features</a>
+          </li>
+
+          <li>
+            <a href="mailto:info@teamsinnovation.com" class="navbar-link" data-nav-link style="color: white;"> Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+      <a href="#" class="btn-outline blink" style="color: white;">Call +1 (727) 906-2761</a>
+<style>
+    .blink {
+        animation: blinker 1s linear infinite;
+    }
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+</style>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+  <main>
+    <article>
+      <!-- 
+        - #HERO
+      -->
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+                 <p class="hero-subtitle has-before moving-line">Welcome to <b>Teams Innovation</b>, your world class digital marketing solution</p>
+          <style>
+              .moving-line {
+                  position: relative;
+                  animation: moveLine 15s linear infinite;
+                  white-space: nowrap;
+              }
+          
+              @keyframes moveLine {
+                  0% { left: 0; }
+                  100% { left: calc(100% - 100px); }
+              }
+          </style>
+                      <h1 class="h1 hero-title">Outsmart the competition with best-in-class digital marketing services</h1>
+            <p class="hero-text">
+              Web Design, SEO and Digital Marketing Services We Provide.Get more traffic.
+              Acquire more customers. Sell more stuff. Teams Innovation offers proven strategies &
+              reliable execution to exceed your marketing goals </p>
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Discover More</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">How it works</span>
+              </button>
+              
+            </div>
+
+          </div>
+
+          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+            <img src="./assets/images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2-sm section-title">Drive users to action and grow your brand with a results-driven experience..
+            </h2>
+
+            <p class="section-text">
+              Elevate your business with a beautiful website that your customers will love.
+              We plan your website right from the start with detailed search keyword and competitor research.
+              We tailor your site to drive results with clear CTAs.
+              Your website will load extremely fast and look great on all devices
+            </p>
+
+            <ul class="about-list">
+
+              <li class="has-before">
+                Affordable pricing
+              </li>
+
+              <li class="has-before">
+                Timely delivery </li>
+
+              <li class="has-before">
+                High quality designs
+              </li>
+
+            </ul>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Know More</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">4+ Years Experience as Digital Marketer</span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" style="padding-top: 20px;" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-What We Offer-</p>
+
+          <h2 class="h2 section-title text-center">Our Digital Marketing Services</h2>
+
+          <p class="section-text text-center">
+            Our digital media strategizing services involve developing comprehensive strategies to maximize your online
+            presence and reach your target audience effectively. We analyze your business, industry, competitors, and
+            target market to create data-driven strategies that encompass various digital channels, including social
+            media, search advertising, display advertising, and more. </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
+                    alt="UI/UX Creative Design" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Internet Marketing</h3>
+                  <p class="card-text"> Capture your audience's attention with compelling and valuable content, creating brand awareness, driving website traffic, and establishing your expertise in the industry.</p>
+
+                  <ul class="about-list">
+
+                    <li class="has-before">
+                      Instagram Ads
+                    </li>
+      
+                    <li class="has-before">
+                      Influencer Marketing </li>
+      
+                    <li class="has-before">
+                      Facebook Ads
+                    </li>
+                    <li class="has-before">
+                      YouTube Ads
+                    </li>
+                    <li class="has-before">
+                      App Store Optimization
+                    </li>
+                        </ul>
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+                <figure class="card-icon">
+                  <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development"
+                    class="img">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title" > Design Services</h3>
+                  <p class="card-text">From web to graphic, we create visually stunning and functional designs that captivate audiences, convey brand messages, and elevate user experiences.</p>
+                  <ul class="about-list">
+
+                    <li class="has-before">
+                      Web Design
+                    </li>
+                          <li class="has-before">
+                      Web Development </li>
+                          <li class="has-before">
+                      Graphic Design
+                    </li>
+                    <li class="has-before">
+                      Logo Design
+                    </li>
+                    <li class="has-before">
+                      Web Hosting
+                    </li>
+      
+                  </ul>
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
+                    alt="Professional Content Writer" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Email Marketing</h3>
+
+                  <p class="card-text">
+                    Our email marketing services help you engage with your audience, nurture leads, and drive
+                    conversions.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Web Analytics</h3>
+
+                  <p class="card-text">
+                    With our web analytics services, we provide valuable insights into your website's performance, user
+                    behavior, and key metrics.  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+         
+
+        </div>
+      </section>
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features"  style="padding-top: 10px;" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-Why Choose Us-</p>
+
+          <h2 class="h2 section-title text-center">Reasons to Choose Us</h2>
+
+          <p class="section-text text-center">
+           We are simply the best, tried and tested digital media compaign and strategist. We will work with you along the journey to make sure your digitalpresence is working for you.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="01">01</data>
+
+                <h3 class="h3 card-title">Expertise and Experience</h3>
+
+                <p class="card-text">
+                  Our team of digital marketing professionals has extensive expertise and years of experience in the
+                  industry.
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="02">02</data>
+
+                <h3 class="h3 card-title">Results-Driven</h3>
+
+                <p class="card-text">
+                  Our primary focus is on achieving tangible results for our clients. We set clear goals and key
+                  performance indicators (KPIs) to track the success of our campaigns.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="03">03</data>
+
+                <h3 class="h3 card-title">Comprehensive Services</h3>
+
+                <p class="card-text">
+                  We offer a wide range of digital marketing services to cover all aspects of your online presence across multiple
+                  channels.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="04">04</data>
+
+                <h3 class="h3 card-title">Premium Website</h3>
+
+                <p class="card-text">
+                  On top of creating a great digital marketing to pull traffic, we build an engaging premium website.
+                  
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="05">05</data>
+
+                <h3 class="h3 card-title">Transparent Reporting</h3>
+
+                <p class="card-text">
+                  We believe in transparency and providing our clients with clear and detailed reports on the
+                  performance of their digital marketing campaigns.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="06">06</data>
+
+                <h3 class="h3 card-title">Very Reasonable Price</h3>
+
+                <p class="card-text">
+                  Our pricing terms are one of the best in the market, making sure customers get value for their money
+                  and return on their investment.
+                </p>
+
+              </div>
+            </li>
+            <li>
+              
+            </li>
+            <li>
+              <div class="features-card" style="margin-bottom: 20px;">
+
+            
+
+               
+                <a href="mailto:info@hoolix.com" class="btn btn-primary">Start Today</a>
+            
+              </div>
+            </li>
+            <li>
+              
+            </li>
+
+          </ul>
+         
+        </div>
+
+      </section>
+
+      <!-- 
+        - #FAQ
+      -->
+
+      <section class="section faq" aria-label="frequently asked questions" style="margin-top: 20px;">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Discover. Frequently Asked Questions</h2>
+
+            <a href="#" class="btn btn-primary">Work Together</a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    01. How can social media marketing benefit my business?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Social media marketing offers numerous benefits for businesses,
+                    including the ability to reach a vast audience,
+                    engage with customers on a more personal level, build brand loyalty, drive website traffic,
+                    increase conversions, and gather valuable insights through social media analytics.
+                    It also provides a platform for businesses to showcase their products or services,
+                    run targeted advertising campaigns, and leverage user-generated content to boost brand credibility..
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    02. What is search engine optimization (SEO) and why is it important?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Search engine optimization (SEO) is the process of optimizing a website to improve its visibility
+                    and ranking on search engine results pages.
+                    It involves various techniques such as keyword research, on-page optimization,
+                    link building, and technical optimizations.
+                    SEO is important because it helps businesses increase organic (non-paid) traffic to their website,
+                    improves online visibility,
+                    and drives targeted visitors who are actively searching for their products or services.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    03. How long does it take to see results from digital marketing efforts?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    The time it takes to see results from digital marketing efforts can vary depending on several
+                    factors,
+                    including the specific strategies implemented, the industry, competition, and the target audience.
+                    Generally, it may take a few months to start seeing noticeable results,
+                    but it's important to consistently monitor and optimize campaigns for long-term success.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    04. What are the key components of a successful digital marketing strategy?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    A successful digital marketing strategy typically includes a combination of various components such
+                    as search engine optimization (SEO),
+                    content marketing, social media marketing, email marketing, paid advertising (e.g., Google Ads),
+                    analytics and tracking, and conversion rate optimization.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    05. Why is digital marketing important for businesses?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Digital marketing is essential for businesses because it allows them to reach a wider audience,
+                    engage with potential customers, increase brand awareness, drive website traffic, generate leads,
+                    and ultimately boost sales and revenue.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-color: #bb843c;"
+  ">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Teams Innovation Services</a>
+
+          <p class="footer-text">
+            Teams Innovation offers a wide range of services to cater for your needs. Our skilled team specializes in
+            website development, application development and deployment, graphics design, web analytics, SEO service, email marketing and much more.
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" style="color: white;" placeholder="Enter your email" required
+              class="email-field">
+
+            <button type="submit" class="form-btn">
+              <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Digital Marketing Analytics</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">App Design</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Responsive Web Design</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Web Hosting</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Search Engine Optimization (SEO) Services</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Company</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Latest News</a>
+          </li>
+
+          <li>
+            <a href="mailto:info@hoolix.com" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true" style="color: white;"></ion-icon>
+
+            <address class="contact-link address">
+              Florida
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true" style="color: white;"></ion-icon>
+
+            <a href="tel:+7894631546876" class="contact-link"> +1 (727) 906-2761</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true" style="color: white;"></ion-icon>
+
+            <a href="mailto:info@teamsinnovation.com" class="contact-link">info@teamsinnovation.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 Teams Innovation | All Rights Reserved by <a href="#" class="copyright-link"
+            style="color:white">Teams Innovation</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
