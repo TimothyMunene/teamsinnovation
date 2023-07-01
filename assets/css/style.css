@@ -293,6 +293,7 @@ body {
 
 .nav-open-btn {
   color: var(--rich-black-fogra-29-1);
+  color: var(--white);
   font-size: 35px;
 }
 
